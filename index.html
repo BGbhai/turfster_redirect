@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Turfster Redirect</title>
+    <script>
+      const ua = navigator.userAgent;
+      if (/android/i.test(ua)) {
+        window.location.href = "https://play.google.com/store/apps/details?id=asymmetri.in.turfster";
+      } else if (/iPad|iPhone|iPod/.test(ua)) {
+        window.location.href = "https://apps.apple.com/in/app/turfster-book-turfs-easily/id6743322498";
+      } else {
+        window.location.href = "https://turfster.in";
+      }
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to your app store...</p>
+  </body>
+</html>
